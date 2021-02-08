@@ -1,0 +1,41 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se 
+lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en 
+tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+*Variables: 
+
+Una variable es un espacio de la memoria donde se almacena un dato, un espacio donde podemos guardar cualquier
+tipo de información que necesitamos para realizar las acciones de nuestros programas. Se puede pensar en ella 
+como una caja, donde almacenamos un dato. Esta caja tiene un nombre, para que más adelante podamos referenciarnos
+a ella. 
+
+*Strings:
+
+Es un tipo de variable compuesto por un conjunto ordenado de letras (caracteres). Son útiles para almacenar datos
+que se pueden representar en forma de texto. 
+
+*Funciones (argumentos, 'return'):
+
+Una función es algo muy similar a un procedimiento. Un conjunto de instrucciones que realiza una tarea o calcula
+un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida
+donde haya una relación obvia entre la entrada y la salida. 
+
+
+*Declaraciones:
+
+Son instrucciones a ser ejecutadas por el navegador web. 
+
+*Valores Booleanos: 
+
+Una variable es booleana si le asigna como contenido 'true' o 'false'. Esta variable se utiliza para almacenar
+información del tipo sí / no, cumple/no cumple, verdadero / false. Es decir, información que solo puede tener 
+dos estados. Estas variables generalmente se utilizan para evaluar si se cumplen condiciones mediante instrucciones
+if else. 

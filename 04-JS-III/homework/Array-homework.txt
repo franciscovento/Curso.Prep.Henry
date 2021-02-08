@@ -1,0 +1,29 @@
+ En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como 
+ si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente 
+ cualquier agujero en tu comprensión.
+
+	* Arrays
+
+
+¿Qué es un array?
+Un array es algo muy similar a una lista de compras. Los elementos que estén dentro de la lista van
+tener una cantidad de elementos dependiendo de las cosas que vas a querer comprar y una posición, por
+ejemplo:
+1. Lechuga
+2. Tomate
+3. Limones
+
+En javascript, el lenguaje que estamos estudiando esta lista se representa de una forma particular aunque
+en el fondo es casi lo mismo. Hariamos algo como lo siguiente:
+
+var listaDeCompras = ['Lechuga', 'tomate', 'limones'] 
+
+En este ejemplo solo estamos almacenando strings(textos) pero recordemos que podemos ingresar cualquier tipo de
+elemento incluso otra lista dentro de mi lista. 
+
+var listaDeCompras = ['Lechuga', 'tomate', 'limones' [1,2,3]];
+
+Los arrays nos permiten guardar varias variables y acceder a ellas de forma independiente, es como tener 
+una variable con distintos compartimentos donde podmeos introducir datos distintos. A la ves contamos 
+indices de posición (empezando desde el 0) que nos ayudarán a introducir o llamar el elemento que requerimos. 
+

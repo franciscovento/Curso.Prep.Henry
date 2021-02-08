@@ -1,0 +1,57 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como 
+si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente 
+cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+
+¿Qué es 'for' en javascript?
+
+'for' es una declaración que crea un bucle que sirve para repetir una o más instrucciones un determinado
+número de veces. Por ejemplo: mi programa muestra la palabra 'verdad' tantas veces como el número que 
+escribe el usuario en la pantalla. 
+
+ La sitaxis que se utiliza es la siguiente: 
+
+for (inicializción; condición; actualización) {
+    // sentencia a ejecutar en cada iteración
+}
+
+Estas tres partes incluidas entre los parentesis nos sirven para definir como deseamos que se realicen 
+las repeticiones. La primera es a inicialización. Se coloca la variable que utilizaremos para llevar
+la cuenta de las veces que se ejecutará el bucle. 
+
+La segunda parte es la condición, que se va a evaluar cada vez que comience una iteración del bucle. Contiene
+una expresión para decidir cuando se va a detener el bucle. O mejor dicho la condición que se debe cumplir
+para que el bucle continue su ejecución. 
+
+Por última la tercera parte es la actualización, para indicar los cambios que queremos ejecutar en las variables
+cada vez que termina una iteración del bucle, antes de comprobar si se debe seguir ejecutando. 
+
+Después del for se colocan las sentencias que queremos que se ejecuten en cada iteración dentro de las llaves.
+
+Ejemplo: 
+
+var numero 
+for (i = 0; i < numero; i++ ){
+    return console.log('verdad');
+}
+
+2. Explicación de  '&&' , '||', '!': 
+
+&& y || son dos operaciones que representan las expresiones lógicas SI (AND) y O (OR). 
+Estas operaciones funcionan igual en la logica condicional. Por lo tanto, para la operación && el resultado
+será verdadero si y solo si ambas elementos de la operación son verdaderos, por otro lado, para la expresión ||
+el resultado de la operación será verdadero si al menos uno de los elementos resulta verdadero. 
+
+Por último, la operación ! indica la negación de la expresión que la siga inmediatamente. Por ejemplo:
+
+true = true
+!true = false
+
+false = false
+!false = true
+
