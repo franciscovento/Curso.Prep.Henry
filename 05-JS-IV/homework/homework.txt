@@ -1,0 +1,56 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se 
+lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en 
+tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+Objetos: 
+Es una colección de propiedades, y una propiedad es una asociación entre un nombre (o clave) y un valor. (key|value)
+Los objeteos suelen contener mucha información sobre una sola cosa. Estás se inician usando llaves ({}). En definitiva
+un objeto es una entidad independiente con propiedades y tipos. Podemos comprarlo con una pelota, una pelota es un objeto
+que tiene propiedades. Una pelota tiene un color, un diseño, un peso, un material, etc. Del mismo modo los objetos en 
+javascript pueden tener propiedades que definan sus características. 
+
+Propiedades: 
+Una propiedad en un objeto se puede definir como una variable adjunta al objeto. Las propiedades de un objeto son básicamente
+lo mismo que las variables comunes en javascript, excepto por el nexo con el objeto. Las propiedades de un objeto definen las
+características de un objeto. 
+
+Métodos: 
+En los objetos, los valores se pueden establecer en funciones. Las funciones guardadas en un objeto son métodos. Hemos utilizado
+muhos métodos durante el curso. .length, .push, .pop, etc. 
+
+Bucles 'for…in': 
+El bucle 'for…in' recorre cada clave del objeto y finaliza cuando se hayan iterado todas las claves. 
+
+Notación de puntos vs notación de corchetes: 
+En javascript tenemos dos formas de acceder a las propiedades o funciones de un objeto. A través de la notación por punto o corchetes. Por ejemplo:
+ 
+ var miMascota = { 
+     "nombre": "Hernán",
+     "país": "Ecuador",
+     "edad": "29"
+ }
+
+Con la notación con punto podemos acceder a una propiedad de la siguiente manera: 
+console.log(miMascota.nombre); // Imprime en consola "Hernán".
+
+Con la notación con corchetes tendría que ser de la siguiente manera: 
+console.log(miMascota["nombre]); // Imprime en consola "Hernán".
+
+La ventaja de usar corchetes que es uno puede acceder a propiedades que tiene un carácter no permitido en la notación con punto. (por ejemplo:
+miMascota.numero, miMascota.su edad ya que no acepta números ni espacios.)
+
+Otra ventaja es que se puede acceder a las propiedades de la propiedad. 
+console.log(miMascota["nombre"]["primero"]);
+
+También se puede acceder a las funciones. Por lo tanto, es mejor usar la notación por corchetes para ahorrarnos inconvenientes. 
+
+
+
