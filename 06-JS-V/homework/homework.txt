@@ -1,0 +1,16 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si 
+se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier 
+agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+1. prototype: Javascript es un lenguaje de prototipado. Cada objeto definido en javascript tiene sus propiedades, pero a la vez tiene un
+prototipo con otras propiedades. Funciona de forma jerárquica, el prototipo vendría a ser el padre del objeto que yo creo y este hereda todos
+sus propiedades y métodos. 
+
+2. _Constructors_: El método constructos es un método especial para crear e inicializar un objeto creado a partir de una clase. Con estos 
+podemos crear otros objetos que hereden sus propiedade y métodos. 
+
