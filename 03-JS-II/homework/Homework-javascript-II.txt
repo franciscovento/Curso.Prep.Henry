@@ -1,0 +1,36 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se 
+lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en 
+u comprensión.
+
+FOR : 
+El bucle "for" se utiliza para repetir una o más instrucciones un determinado número de veces. De entre todos los 
+bucles, el "for" se suele utilizar cuando sabemos el número de veces que queremos que se ejecute. 
+
+La sintaxis es la siguiente: 
+
+for (var i = 0; i < 10; i++){
+    Código a ejecutar
+}
+
+La primera parte (var i = 0) es la inicialización que ese ejecuta al comenzar la primera iteración, se suele colo-
+car la variable que utilizaremos para llevar la cuenta de las veces que se ejecuta el bucle. 
+
+La segunda parte es la condición ( i < 10) que se evaluará cada vez que comience una iteración del bucle. Contiene
+una expresión para decidir cuando se va a detener el bucle. O mejor dicho al condición que se tiene que cumplir
+para que el bucle continue.
+
+La tercera parte es la actualización (i++) sirve para indicar los cambios que queremos ejecutar en las variables
+cada vez que se termina la iteración de un bucle, antes de comprobar si se debe seguir ejecutando. 
+
+
+
+
+
+* `&&`, `||`, `!` 
+Son operadores lógicos. Cada símbolo representa un operador. 
+
+&& = Es el operador AND.
+|| = Es el operador OR.
+! = Es el operador NOT. 
